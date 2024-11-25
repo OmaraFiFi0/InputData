@@ -1,0 +1,115 @@
+<html>
+  <head> </head>
+  <body>
+    <form>
+      <fieldset style="background-color: #c0c78c">
+        <legend style="background-color: #a6b37d">Personal Data</legend>
+        <fieldset style="background-color: #fefae0">
+          <legend
+            style="
+              background-color: #af8e53;
+              height: 60px;
+              align-content: center;
+            "
+          >
+            Your Name
+          </legend>
+          <table>
+            <br /><br />
+            <tr>
+              <td>
+                <label for="Firstname">First Name :</label>
+              </td>
+              <td>
+                <input type="text" name="Fname" id="Firstname" />
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label for="Lastname">Last Name :</label>
+              </td>
+              <td>
+                <input type="text" name="Lname" id="Lastname" />
+              </td>
+            </tr>
+          </table>
+        </fieldset>
+        <br /><br />
+        <br />
+
+        <table style="text-align: end">
+          <tr>
+            <td>
+              <label for="Phone">Your Phone :</label>
+            </td>
+            <td>
+              <input type="tel" name="Phonenumber" id="Phone" />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="email">Email :</label>
+            </td>
+            <td>
+              <input type="email" name="Email" id="email" />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="password">password :</label>
+            </td>
+            <td>
+              <input type="password" name="password" id="password" />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="re-password">re-password :</label>
+            </td>
+            <td>
+              <input type="password" name="re-password" id="re-password" />
+            </td>
+          </tr>
+        </table>
+
+        <br />
+        <br />
+        <br />
+
+        <input type="radio" name="Gender" id="male" value="Male" />
+        <label for="male">Male</label>
+        <br />
+        <input type="radio" name="Gender" id="female" value="Female" />
+        <label for="female">Female</label>
+        <br />
+        <br />
+        <input type="checkbox" name="CaseStude" id="student" value="Student" />
+        <label for="student">Student</label> <br />
+        <input
+          type="checkbox"
+          name="CaseStude"
+          id="graduate"
+          value="Graduate"
+        />
+        <label for="graduate">Graduate</label> <br />
+        <br />
+        <select name="Collage">
+          <optgroup label="InSide">
+            <option value="NCA">NCA</option>
+            <option selected value="AUC">AUC</option>
+          </optgroup>
+          <optgroup label="OutSide">
+            <option value="Cambridge">Cambridge</option>
+            <option value="Oxford">Oxford</option>
+          </optgroup>
+        </select>
+        <br />
+        <input
+          type="submit"
+          value="SUBMIT"
+          style="background-color: #000000; color: white"
+        />
+      </fieldset>
+    </form>
+  </body>
+</html>
